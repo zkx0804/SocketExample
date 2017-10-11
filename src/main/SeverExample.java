@@ -40,7 +40,7 @@ public class SeverExample {
 			System.out.println("File not found. ");
 		}
 
-		byte[] bytes = new byte[16 * 1024];
+		byte[] bytes = new byte[1048576];
 
 		int count;
 		while ((count = in.read(bytes)) > 0) {
